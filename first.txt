@@ -1,0 +1,18 @@
+what you need to do:
+- Download : 
+    - git
+    - msys2
+    - pacman
+
+- pacman -Syu => update the system
+- pacman -Su
+- go to 64bit
+- pacman -Ss gcc
+- pacman -S mingw-w64-x86_64-gcc 
+- pacman -Ss gdb
+- pacman -S mingw-w64-x86_64-gcc 
+- check versions:
+    - gcc --version
+    - g++ --version
+    - gdb --version
+- Edit Sys
