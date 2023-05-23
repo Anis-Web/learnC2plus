@@ -19,7 +19,14 @@ using namespace std;
   Enscape Sequences Characters
   - \n, \\, \", \', \t(Tab), \b, \a(alert), \r(carriage return)
 */
-
+/*
+  Data Types
+  - integer => int
+  - string => string
+  - boolean => bool
+  - float =>
+  - array =>
+*/
 int main()
 {
   int price = 100;
@@ -65,6 +72,15 @@ int main()
   cout << "Age in seconds is: " << age_in_seconds << " s\n";
 
   cout << "\n==================================\n";
+  auto nums = 100; // auto => it will be deduce the type
+  cout << &nums; // & to find the logation in the memory
 
+  // cout << "\n==================================\n";
+  // int bytes;
+  // cin >> bytes;
+  // cout << "Your number is: " << bytes << "kb\n";
+  // cout << "Your number in bytes is: " << bytes * 1024<< "b\n";
+
+  cout << "\n==================================\n";
   return 0;
 }

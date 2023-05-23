@@ -16,3 +16,22 @@ what you need to do:
     - g++ --version
     - gdb --version
 - Edit Sys
+
+Data Types
+- Ram [R]andom [A]ccess [M]emory
+-- Computer Memory Has Locations
+
+Data Sizes
+-- Bit => [Bi]nary Digi[t] => Smallest unit in storage store only 0 or 1
+-- Byte => A group of 8 => store single character
+-- kilo byte => 1024 byte
+-- Mega ... => 1024 kilobyte
+-- Giga ... => 1024 megabyte
+-- Terra byte => 1024 gigabyte
+
+Data types with size 
+-- int => 2 or 4 bytes 
+-- float => 4 bytes 
+-- double => 8 bytes
+-- char => 1 byte 
+-- boolean => 1 byte
