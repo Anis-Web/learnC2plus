@@ -1,4 +1,5 @@
-#include <iostream>
+#include <iostream>  // std::cout
+#include <climits> //std::numeric_limits
 // Preprocessor Directive
 /*
   if we do not want to write "std::" we can write => 
@@ -82,5 +83,54 @@ int main()
   // cout << "Your number in bytes is: " << bytes * 1024<< "b\n";
 
   cout << "\n==================================\n";
+  cout << INT_MIN << "\n"; //-2147483648
+  cout << INT_MAX << "\n"; // 2147483647
+  cout << "\n==================================\n";
+  cout << sizeof(int) << "\n"; // 4
+  cout << sizeof(float) << "\n"; // 4
+  cout << sizeof(double) << "\n"; // 8
+  cout << sizeof(string) << "\n"; // 32
+  cout << sizeof(char) << "\n"; // 1
+  cout << sizeof(bool) << "\n"; // 1
+  cout << "\n==================================\n";
+  float fl = 10.5f + 9.5f; // if did write the f to tell the compiler that it is a float not a double, to take 4 not 8 from the memory;
+
+  cout << "\n==================================\n";
+  // char a = 'A' => 1 b => type char
+  // auto a = "A" => 8 b => type string bcs of ("")
+  cout << int('A') << "\n"; // 65 ASCII value
+  cout << char(65) << "\n"; // A
+  // char asc;
+  // cout << "if you want to know to ASCII value write a char" << "\n";
+  // cin >> asc;
+  // cout << "your ASCII value is: " << int(asc) << "\n";
+  cout << "\n==================================\n";
+
+  int Age = 300;
+  cout << sizeof(Age) << "\n"; // 4 Bytes
+
+  short int new_age = 300;
+  cout << sizeof(new_age) << "\n"; // 2 bytes bcs of short
+
+  cout << sizeof(short) << "\n"; // 2
+  cout << sizeof(long) << "\n";  // 8
+  cout << sizeof(long long) << "\n";  // 
+
+  using bignum = long long int; // ilyas
+  // typedef long long int bignum;
+
+  signed int num_one = - 100; // signed => the default value => +n || 0 || -n
+  unsigned int num_two = 100; // just the +value;
+
+  int o = 20;
+  double h = 20.5;
+  cout << o + (int)h << "\n"; // 20 + 20 = 40 || int(h)
+  cout << "============================\n";
+  
+
   return 0;
+}
+void without_value()
+{
+  // Nothing to return;
 }
