@@ -125,8 +125,8 @@ int main() //the main should be a lowercase
   // using lli = long long int;
   typedef long long int lli;
   // Do Not Edit
-  lli num = 150050005; // This Is Long Long Int
-  cout << num << "\n"; // 150050005
+  lli nums = 150050005; // This Is Long Long Int
+  cout << nums << "\n"; // 150050005
   cout << "ass 11 =>  \n";
   // Do Not Edit Here
   short int x = 100;
@@ -151,6 +151,14 @@ int main() //the main should be a lowercase
   cout << "====ass from 24 to 29====\n";
   cout << "=========================\n";
   cout << "ass 01 =>  \n";
+  int num = 3;
+  cout << num + num << "\n";                 // 6
+  cout << num * num - num << "\n";           // 6
+  cout << (num * num) - num << "\n";         // 6
+  cout << (num + num + num) - num << "\n";   // 6
+  cout << (num + num) / (num == num) << "\n"; // 6
+  cout << (num - num) + (num + num) << "\n"; // 6
+  cout << (num + num) * (num / num) << "\n"; // 6
 
   cout << "ass 02 =>  \n";
 
